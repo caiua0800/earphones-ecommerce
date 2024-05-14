@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Website Responsivo usando bootstrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+    <div class="header">
+        <!-- começo da navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand logo text-uppercase" href="#">logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto d-flex align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Headphones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Proutos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn-navbar" href="#">Compre agora</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- final da navbar -->
+
+        <div class="container grande">
+            <div class="container-home">
+                <div class="row content-home2">
+                    <div class="col-lg-7 col-md-5">
+                        <div class="box-container">
+                            <img src="./temp/headphone.png" class="img-home" alt="banner img">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-7">
+                        <div class="box-container2">
+                            <h1 class="home-heading">Desenvolvido para a<span class="home-span"> melhor experiência </span></h1>
+                            <div class="para-home">
+                                <p class="parahome">Produto mais vendido da nossa empresa e clientes satisfeitos</p>
+                                <div class="btn-home">
+                                    <a class="home-links" href="#">Compre Agora</a>
+                                    <a class="home-links btn-2" href="#">Explorar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container pequena">
+            <div class="container-home">
+                <div class="row content-home2">
+                    <div class="col-lg-7 col-md-5">
+                        <div class="box-container">
+                            <img src="./temp/headphone.png" class="img-home" alt="banner img">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-7">
+                        <div class="box-container2">
+                            <h1 class="home-heading">Desenvolvido para a<span class="home-span"> melhor experiência </span></h1>
+                            <div class="para-home">
+                                <p class="parahome">Produto mais vendido da nossa empresa e clientes satisfeitos</p>
+                                <div class="btn-home">
+                                    <a class="home-links" href="#">Compre Agora</a>
+                                    <a class="home-links btn-2" href="#">Explorar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- header part finished -->
+
+        <!-- About US part -->
+
+        <div class="container-home">
+            <div class="about-us-container">
+                <div class="about-us">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="content-about">
+                                <h3 class="heading-about">Sobre Nós</h3>
+                                <p class="para-about">
+                                    Somos uma empresa de técnologia a mais de 10 anos no mercado oferecento produtos da melhor qualidade e técnologia para nossos clientes.
+                                </p>
+                                <p class="para-about">
+                                    Fabricamos fones de ouvido sem fio com a melhor conectividade, headsetes, e acessórios.
+                                </p>
+                                <a href="#" class="link-about"> <span class="span-about"></span>Leia Mais</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="./temp/bluetoothPhone.jpg" class="img-about bluPhone" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- about us part end -->
+
+        <div class="container">
+            <section class="product-category">
+                <h2 class="heading-product">Product Category</h2>
+                <div class="container-fluid">
+                    <!-- slider carousel bootstrap  -->
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="container">
+                                    <div class="row">
+        
+                                        <div class="col-lg-4 col-md-6">
+            
+                                            <div class="card card-product">
+                                                <img src="./temp/earBudy.jpg" class="card-img-top img-card" alt="...">
+                                                <div class="card-body">
+                                                  <h5 class="card-title">EAR BUDY 628</h5>
+                                                  <p class="card-text">Fones para atletas, não deize o som externo atrapalhar sua corrida e não se preocupe em se molhar</p>
+                                                  <a href="#" class="btn-product-ctg">Leia Mais</a>
+                                                </div>
+                                            </div>
+            
+                                        </div>
+                                        <div class="col-lg-4 col-md-6">
+            
+                                            <div class="card card-product">
+                                                <img src="./temp/foneApple.jpg" class="card-img-top img-card" alt="...">
+                                                <div class="card-body">
+                                                  <h5 class="card-title">Appe Airpods Pro</h5>
+                                                  <p class="card-text">Até quatro horas e meia de áudio com apenas uma recarga (até cinco horas com os modos Cancelamento Ativo de Ruído e Ambiente desativados)</p>
+                                                  <a href="#" class="btn-product-ctg">Leia Mais</a>
+                                                </div>
+                                            </div>
+            
+                                        </div>
+                                        <div class="col-lg-4 col-md-6">
+            
+                                            <div class="card card-product">
+                                                <img src="./temp/qcyT19.jpg" class="card-img-top img-card" alt="...">
+                                                <div class="card-body">
+                                                  <h5 class="card-title">QCY T-19</h5>
+                                                  <p class="card-text">Escute música, treine e faça reuniões. Ele foi pensado com uma dedicação insana para aumentar sua produtividade, não importa o que você esteja fazendo ou criando.</p>
+                                                  <a href="#" class="btn-product-ctg">Leia Mais</a>
+                                                </div>
+                                            </div>
+            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="container">
+                                    <div class="row">
+        
+                                        <div class="col-lg-4 col-md-6">
+            
+                                            <div class="card card-product">
+                                                <img src="./temp/earBudy.jpg" class="card-img-top img-card" alt="...">
+                                                <div class="card-body">
+                                                  <h5 class="card-title">EAR BUDY 628</h5>
+                                                  <p class="card-text">Fones para atletas, não deize o som externo atrapalhar sua corrida e não se preocupe em se molhar</p>
+                                                  <a href="#" class="btn-product-ctg">Leia Mais</a>
+                                                </div>
+                                            </div>
+            
+                                        </div>
+                                        <div class="col-lg-4 col-md-6">
+            
+                                            <div class="card card-product">
+                                                <img src="./temp/foneApple.jpg" class="card-img-top img-card" alt="...">
+                                                <div class="card-body">
+                                                  <h5 class="card-title">Appe Airpods Pro</h5>
+                                                  <p class="card-text">Até quatro horas e meia de áudio com apenas uma recarga (até cinco horas com os modos Cancelamento Ativo de Ruído e Ambiente desativados)</p>
+                                                  <a href="#" class="btn-product-ctg">Leia Mais</a>
+                                                </div>
+                                            </div>
+            
+                                        </div>
+                                        <div class="col-lg-4 col-md-6">
+            
+                                            <div class="card card-product">
+                                                <img src="./temp/qcyT19.jpg" class="card-img-top img-card" alt="...">
+                                                <div class="card-body">
+                                                  <h5 class="card-title">QCY T-19</h5>
+                                                  <p class="card-text">Escute música, treine e faça reuniões. Ele foi pensado com uma dedicação insana para aumentar sua produtividade, não importa o que você esteja fazendo ou criando.</p>
+                                                  <a href="#" class="btn-product-ctg">Leia Mais</a>
+                                                </div>
+                                            </div>
+            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Adicionar controles de navegação fora das imagens -->
+                        <button style="left: -65px;" class="carousel-control-prev btn-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+                            <span>
+                                <svg class="button-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="45" height="45"><path d="M10.78 19.03a.75.75 0 0 1-1.06 0l-6.25-6.25a.75.75 0 0 1 0-1.06l6.25-6.25a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L5.81 11.5h14.44a.75.75 0 0 1 0 1.5H5.81l4.97 4.97a.75.75 0 0 1 0 1.06Z"></path></svg>
+                            </span>
+                        </button>
+                        <button style="right: -150px;" class="carousel-control-next btn-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+                            <span>
+                                <svg class="button-left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="45" height="45"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg>
+                            </span>
+                        </button>
+                        <!-- Fim dos controles de navegação fora das imagens -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- product part completed -->
+
+        <!-- testimonials section start -->
+
+        <div class="testimonial">
+            <h2 class="heading-testimonial">
+                O que as pessoas pensam <span style="color:rgb(255, 129, 57) ;" class="styling">sobre nós</span>
+            </h2>
+            <p class="para-testimonial">Somos uma empresa de técnologia a mais de 10 anos no mercado oferecento produtos da melhor qualidade e técnologia para nossos clientes.</p>
+            <div class="container-fluid">
+                <div id="carouselExampleIndicators" class="carousel slide c2" data-bs-ride="carousel">
+                    <!-- <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    </div> -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active d-flex justify-content-center">
+                            <div class="container container-clients d-flex justify-content-center">
+                                <div class="row">
+                                    <div class="col-lg-4 col-md-12 my-2">
+                                        <div class="container-content">
+                                            <div class="img-client">
+                                                <img src="./temp/client1 (1).jpg" class="img-clients" alt="Cliente 1">
+                                            </div>
+                                            <div class="icons-stars">
+                                                <ul class="rating">
+                                                    <li class="stars"><img src="./temp/star.png" style="width: 50px;"></li>
+                                                    <li class="stars"><img src="./temp/star.png" style="width: 50px;"></li>
+                                                    <li class="stars"><img src="./temp/star.png" style="width: 50px;"></li>
+                                                    <li class="stars"><img src="./temp/star.png" style="width: 50px;"></li>
+                                                    <li class="stars"><img src="./temp/star.png" style="width: 50px;"></li>
+                                                    <!-- Adicione as outras estrelas aqui se necessário -->
+                                                </ul>
+                                                <h3 class="client-name">Priscila Amaral</h3>
+                                                <p class="para-client">Comprei um ótimo produto, estou muito satisfeita!</p>
+                                                <h5 class="profession">Arquiteta</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 my-2">
+                                        <div class="container-content">
+                                            <div class="img-client">
+                                                <img src="./temp/client2.jpg" class="img-clients" alt="Cliente 2">
+                                            </div>
+                                            <div class="icons-stars">
+                                                <ul class="rating">
+                                                    <li class="stars"><img src="./temp/star.png" style="width: 50px;"></li>
+                                                    <li class="stars"><img src="./temp/star.png" style="width: 50px;"></li>
+                                                    <li class="stars"><img src="./temp/star.png" style="width: 50px;"></li>
+                                                    <li class="stars"><img src="./temp/star.png" style="width: 50px;"></li>
+                                                    <li class="stars"><img src="./temp/star.png" style="width: 50px;"></li>
+                                                    <!-- Adicione as outras estrelas aqui se necessário -->
+                                                </ul>
+                                                <h3 class="client-name">Cliente 2</h3>
+                                                <p class="para-client">Produto sensacional, ótimo custo-benefício!</p>
+                                                <h5 class="profession">Profissão do Cliente 2</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12 my-2">
+                                        <div class="container-content">
+                                            <div class="img-client">
+                                                <img src="./temp/client3.jpg" class="img-clients" alt="Cliente 3">
+                                            </div>
+                                            <div class="icons-stars">
+                                                <ul class="rating">
+                                                    <li class="stars"><img src="./temp/star.png" style="width: 50px;"></li>
+                                                    <li class="stars"><img src="./temp/star.png" style="width: 50px;"></li>
+                                                    <li class="stars"><img src="./temp/star.png" style="width: 50px;"></li>
+                                                    <li class="stars"><img src="./temp/star.png" style="width: 50px;"></li>
+                                                    <li class="stars"><img src="./temp/star.png" style="width: 50px;"></li>
+                                                    <!-- Adicione as outras estrelas aqui se necessário -->
+                                                </ul>
+                                                <h3 class="client-name">Cliente 3</h3>
+                                                <p class="para-client">Excelente produto, recomendo a todos!</p>
+                                                <h5 class="profession">Profissão do Cliente 3</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+      
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimoneal finished -->
+
+        <section class="contact-form">
+            <h3 class="heading-contact">Contate-nos</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <form class="form-origin">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="mb-3">
+                                        <label for="">Nome Completo*</label>
+                                        <input type="text" class="form-control" placeholder="" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                      </div>
+                                </div>
+                                <div class="col-lg-6 col-md-12">
+                                    <div class="mb-3">
+                                        <label for="">Email*</label>
+                                        <input type="Email" class="form-control" placeholder="" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="mb-3">
+                                        <label for="">Sua Mensagem</label>
+                                        <textarea class="form-control" placeholder="" id="textAreaContact"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="mb-3 text-center">
+                                        <a href="#" class="btn-contact">Enviar Mensagem</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-lg-6 col-md-12">
+                        <div class="content-contact">
+                            <h2 class="heading-contact">
+                                Mais sobre <span>nossa empresa</span>
+                                <p class="para-contact">
+                                    Nossa empresa é uma fabricante de equipamentos de áudio fundada em 2014, nos Estados Unidos, por James Bullough Lansing, que também cedeu à companhia as suas iniciais. Originalmente chamada de Lansing Sound, a companhia logo foi renomeada para usar o nome completo de seu fundador e passou a se chamar James B. Lansing Sound.
+                                </p>
+
+                                <div class="social-links">
+
+
+                                </div>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact us completed -->
+
+        <footer>
+
+            <p class="para-footer">&#169; By Caiuã Mello 2024</p>
+        </footer>
+    </div>
+
+
+    
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="../scripts/index.js"></script>
+</body>
+</html>
